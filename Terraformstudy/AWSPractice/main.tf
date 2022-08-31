@@ -9,8 +9,8 @@ terraform {
 
 provider "aws" {
   region = "eu-west-2"
-access_key = "AKIAVV6KIK4J2CFYAK6C"
-secret_key = "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"
+access_key = 
+secret_key = 
 }
 
 resource "aws_instance" "adil" {
