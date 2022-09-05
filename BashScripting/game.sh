@@ -116,7 +116,7 @@ read choice
 wolfhp=48
 wolfap=4
 
-if	[[ $choice == "attack" ]]
+if				[[ $choice == "attack" ]]
 	then
 		wolfhp=$((wolfhp - attack))
 		string="You strike the wolf with all your might, It has $wolfhp hit points remaining!!"
@@ -137,6 +137,7 @@ if	[[ $choice == "attack" ]]
 			if [[ $choice2 == "attack" ]]
 			then
 				wolfhp=$((wolfhp - attack))
+                hp=$((hp - wolfap))
 				if [[ $wolfhp -gt 0 ]]
 				then
 					string="You strike the wolf with all your might, It has $wolfhp hit points remaining!!"
@@ -145,6 +146,19 @@ if	[[ $choice == "attack" ]]
    				 		sleep 0.$(( RANDOM % 2 ))
 					done 
 					echo
+                    string="The wolf slashes at you with its claws , you have $hp hit points remaining!!"
+					for ((i=0; i<=${#string}; i++)); do
+    					printf '%s' "${string:$i:1}"
+   				 		sleep 0.$(( RANDOM % 2 ))
+					done 
+                    echo
+          elif [[ $choice2 == "dodge" ]]; then
+                		string="The wolf slashes at you with its claws, you nimbly dodge its attack. You have $hp hit points remaining!!"
+						for ((i=0; i<=${#string}; i++)); do
+    						printf '%s' "${string:$i:1}"
+   				 			sleep 0.$(( RANDOM % 2 ))
+						done 
+                		echo
 				fi 
 			fi
 		fi
