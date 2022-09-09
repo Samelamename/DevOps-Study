@@ -150,7 +150,7 @@ if	[[ $choice == "attack" ]]
 		fi
 	fi
 
-if [[ $choice == "run away" ]]
+if [[ $choice == "runaway" ]]
 	then
 		string="You are stricken with fear at the sight of the wolf. A puddle begins to form around your feet. The wolf looks on at you in disgust and  seemes to have lost its appetite. There an then you resolve that adventuring was never for you. Danger stared you in the face and chose to run away, no songs shall be sung of you on this day.... "
     	for ((i=0; i<=${#string}; i++)); do
