@@ -29,8 +29,8 @@ echo
 
 tw "Please select a starting class:
 1 - Warrior
-2 - Mage
-3 - Archer" .1
+2 - Brawler
+3 - Rogue" .1
 
 echo
 
@@ -41,21 +41,24 @@ case $class in
 	1)
 		type="Warrior"
 		hp=16
+        des="Tank and can take a load of punishment but does'nt pack a punch. Prepare for a long drawn out battle."
 		attack=8
 		;;
 
-	2)	type="Mage"
+	2)	type="Brawler"
 		hp=12
+        des="Well-rounded Class, a jack of all trades if you will."
 		attack=12
 		;;
 
-	3)	type="Archer"
+	3)	type="Rogue"
+        des="glass canon, Try not to get hit!!"
 		hp=4
 		attack=24
 		;;
 esac
 
-tw "You have selected the $type class. Your Hit Point is $hp and Attack Point is $attack." .1
+tw "You have selected the $type class, The $type class is a $des Your Hit Point is $hp and Attack Point is $attack." .1
 echo
 tw "let your adventure begin" .1
 echo
@@ -181,13 +184,13 @@ fi
 
 while [[ $wolfhp -gt 25 ]]
 do
-    wolfhp=$((wolfhp - attack))
     tw "The wolf is too exhausted to attack!" .1
     echo
     tw "What will you do? You can type; attack or dodge." .1
     echo 
     read choice
     if [[ $choice == "attack" ]]; then
+        wolfhp=$((wolfhp - attack))
         tw "You strike the wolf with all your might!" .1
         echo
         tw  "The wolf has $wolfhp HP remaing!!" .1
