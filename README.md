@@ -1,2 +1,5 @@
-#This repo was provisioned through terraform and will be dedicatd to my journey studying DevOps.
-Sensitive data will be left out of code such as tokens and private keys, assume terraform config command was used.
+# My journey studying DevOps.
+![This is an image](https://www.google.com/search?q=Journey+&tbm=isch&ved=2ahUKEwiSnKKKtJX6AhVG0IUKHbuRDhgQ2-cCegQIABAA&oq=Journey+&gs_lcp=CgNpbWcQAzIECCMQJzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoGCAAQHhAIUOIRWOIRYOAUaABwAHgAgAFUiAGjAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=u18iY9LSNcaglwS7o7rAAQ&bih=1076&biw=2133#imgrc=hni7TKQMQ9Xb7M)
+
+
+
