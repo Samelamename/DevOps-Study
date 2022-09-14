@@ -1,5 +1,5 @@
 # My journey studying DevOps.
-![This is an image](https://www.google.com/search?q=Journey+&tbm=isch&ved=2ahUKEwiSnKKKtJX6AhVG0IUKHbuRDhgQ2-cCegQIABAA&oq=Journey+&gs_lcp=CgNpbWcQAzIECCMQJzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDILCAAQgAQQsQMQgwEyBQgAEIAEMgUIABCABDoGCAAQHhAIUOIRWOIRYOAUaABwAHgAgAFUiAGjAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=u18iY9LSNcaglwS7o7rAAQ&bih=1076&biw=2133#imgrc=hni7TKQMQ9Xb7M)
+![This is an image](https://thefridgeagency.com/wp-content/uploads/sites/3/2018/06/June_CustomerJourney_1000px.jpg)
 
 
 
