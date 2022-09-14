@@ -1,5 +1,5 @@
 # My journey studying DevOps.
-![This is an image](https://thefridgeagency.com/wp-content/uploads/sites/3/2018/06/June_CustomerJourney_1000px.jpg)
+![This is an image](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQVcldW4BbBfT_NOJXzt1GEVdxm8h2h4dgw4J7ndlbPV57DNd3-)
 
 
 
