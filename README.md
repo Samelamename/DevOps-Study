@@ -1,2 +1,5 @@
-#This repo was provisioned through terraform and will be dedicatd to my journey studying DevOps.
-Sensitive data will be left out of code such as tokens and private keys, assume terraform config command was used.
+# My journey studying DevOps.
+![This is an image](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQVcldW4BbBfT_NOJXzt1GEVdxm8h2h4dgw4J7ndlbPV57DNd3-)
+
+
+
